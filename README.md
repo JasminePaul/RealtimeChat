@@ -31,7 +31,6 @@ This is a native iOS Messenger app, with audio/video calls and realtime chat con
 
 ## KEY FEATURES
 
-- AI powered chat interface
 - Firebase backend (full realtime actions)
 - Realm local database (full offline availability)
 - AES-256 encryption
@@ -79,8 +78,7 @@ This is a native iOS Messenger app, with audio/video calls and realtime chat con
 - Copy and paste text messages
 - Arbitrary message sizes
 - Send/Receive sound effects
-- Deployment target: iOS 11.0+
-- Supported devices: iPhone 5s, SE, 6, 6 Plus, 6s, 6s Plus, 7, 7 Plus, 8, 8 Plus, iPhone X, XS, XR, XS Max
+- Supported devices: iPhone SE - iPhone 11 Pro Max
 
 ---
 
@@ -91,9 +89,7 @@ This is a native iOS Messenger app, with audio/video calls and realtime chat con
 
 ## REQUIREMENTS
 
-- Xcode 9.3+
-- iOS 11.0+
-- ARC
+- iOS 12.4+
 
 ## INSTALLATION
 
@@ -114,8 +110,6 @@ This is a native iOS Messenger app, with audio/video calls and realtime chat con
 **8.,** For using push notification feature, create an account at [OneSignal](https://onesignal.com) and replace the `ONESIGNAL_APPID` define value in `AppConstant.h`. You will also need to [configure](https://documentation.onesignal.com/docs/generating-an-ios-push-certificate) your Push certificate details.
 
 **9.,** For using audio and video call features, create an account at [Sinch](https://www.sinch.com) and replace the `SINCH_KEY` and `SINCH_SECRET` define values in `AppConstant.h`. You will also need to [configure](https://www.sinch.com/tutorials/ios8-apps-and-pushkit) your VoIP certificate details.
-
-**10.,** For using the AI powered chat interface you need to configure your [Dialogflow](https://console.dialogflow.com) console. You also need to update the `DIALOGFLOW_ACCESS_TOKEN` define value in `AppConstant.h`.
 
 ---
 
